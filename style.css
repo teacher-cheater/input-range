@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+  /*background: #f1f1f1;*/
+  background: #666;
+}
+
+.wrapper {
+  width: 600px;
+  padding: 10px 60px;
+}
+
+header h1 {
+  font-style: 22px;
+  text-align: center;
+}
+header p {
+  font-style: 18px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  margin: 30px 0 35px;
+}
+
+.block-field {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.field input {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.slider-first {
+  height: 5px;
+  border-radius: 5px;
+  background: #999;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.slider-first .progress-first {
+  height: 5px;
+  top: 25%;
+  left: 25%;
+  background: blue;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.slider-second {
+  height: 5px;
+  border-radius: 5px;
+  background: #999;
+
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.slider-second .progress-second {
+  height: 5px;
+  top: 25%;
+  left: 25%;
+  background: blue;
+  border-radius: 5px;
+  position: absolute;
+}
+.slider-third {
+  height: 5px;
+  border-radius: 5px;
+  background: #999;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.slider-third .progress-third {
+  height: 5px;
+  top: 25%;
+  left: 25%;
+  background: blue;
+  border-radius: 5px;
+  position: absolute;
+}
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  top: -5px;
+  height: 5px;
+  width: 100%;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  background: #999;
+  /*border: 1px solid #333;*/
+}

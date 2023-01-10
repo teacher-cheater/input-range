@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="title">Тестовое задание</h1>
+        <!--  -->
+        <p>
+          Реализовать форму на javascript без использования готовых библиотек с
+          единственным полем принимающим значение диапазона чисел, поле
+          представляет собой два спаренных инпута с виджетом в виде ползунка с
+          двумя контроллерами для управления, позиции контроллеров и значений
+          инпутов должны быть синхронизированы
+        </p>
+        <p>
+          При сабмите формы на бекенд отправляются числовые значения инпутов,
+          так же у формы должна быть возможность установить значения при
+          инициализации и возможность установить новые значения после
+          инициализации, реализовать можно на кнопках обрабатывая событие “клик”
+        </p>
+      </header>
+
+      <form class="form-input">
+        <!--  -->
+        <div class="block-field">
+          <div class="field">
+            <input type="number" class="input-min" value="2500" />
+          </div>
+          <!--  -->
+          <div class="field">
+            <input type="number" class="input-max" value="7500" />
+          </div>
+        </div>
+        <!--  -->
+        <div class="slider-first">
+          <div class="progress-first"></div>
+        </div>
+        <div class="range-input">
+          <input
+            type="range"
+            class="range-min"
+            min="0"
+            max="10000"
+            value="2500"
+          />
+          <input
+            type="range"
+            class="range-max"
+            min="0"
+            max="10000"
+            value="7500"
+          />
+        </div>
+        <!--  -->
+        <div class="slider-second">
+          <div class="progress-second"></div>
+        </div>
+        <!--  -->
+        <div class="slider-third">
+          <div class="progress-third"></div>
+        </div>
+        <!--  -->
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </div>
+    <!--  -->
+    <footer></footer>
+  </body>
+</html>
