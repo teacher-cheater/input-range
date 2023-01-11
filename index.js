@@ -1,11 +1,8 @@
 const rangeInput = document.querySelectorAll('.range-input input');
-//const formInput = document.querySelectorAll('.form-input input'); 
 const formInput = document.querySelectorAll('.form-input input');
 const progressBar = document.querySelector('.slider-first .progress-first');
 
-//const gap = 1000;
 const gap = 1000;
-
 
 rangeInput.forEach(input => {
   input.addEventListener('input', (event) => {
@@ -27,10 +24,6 @@ rangeInput.forEach(input => {
       progressBar.style.right = `${100 - (maxInptValue / rangeInput[1].max) * 100}%`;
 
     }
-
-    //progressBar.style.left = `${(minInptValue / rangeInput[0].max) * 100}%`;
-    //progressBar.style.right = `${100 - (maxInptValue / rangeInput[1].max) * 100}%`;
-
 
     console.log(minInptValue, maxInptValue);
 
@@ -56,12 +49,6 @@ formInput.forEach(input => {
 
       }
     }
-
-    //progressBar.style.left = `${(minInptValue / rangeInput[0].max) * 100}%`;
-    //progressBar.style.right = `${100 - (maxInptValue / rangeInput[1].max) * 100}%`;
-
-
-    console.log(minInptValue, maxInptValue);
 
   })
 })
