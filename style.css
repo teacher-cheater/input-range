@@ -4,8 +4,7 @@ body {
   justify-content: center;
 
   min-height: 100vh;
-  /*background: #f1f1f1;*/
-  background: #666;
+  background: #f1f1f1;
 }
 
 .wrapper {
@@ -63,38 +62,6 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 5px;
   position: absolute;
   background: blue;
-}
-
-.slider-second {
-  height: 5px;
-  border-radius: 5px;
-  background: #999;
-  position: relative;
-}
-
-.slider-second .progress-second {
-  height: 5px;
-  top: 25%;
-  left: 25%;
-  background: blue;
-  border-radius: 5px;
-  position: absolute;
-}
-
-.slider-third {
-  height: 5px;
-  border-radius: 5px;
-  background: #999;
-  position: relative;
-}
-
-.slider-third .progress-third {
-  height: 5px;
-  top: 25%;
-  left: 25%;
-  background: blue;
-  border-radius: 5px;
-  position: absolute;
 }
 
 .range-input {
