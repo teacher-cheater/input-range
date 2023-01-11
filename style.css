@@ -54,16 +54,16 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 5px;
   background: #999;
   position: relative;
-  margin-bottom: 30px;
 }
 
 .slider-first .progress-first {
-  height: 5px;
-  top: 25%;
+  height: 15px;
+  /*width: 100%;*/
+  top: -50%;
   left: 25%;
-  background: blue;
   border-radius: 5px;
   position: absolute;
+  background: blue;
 }
 
 .slider-second {
@@ -72,7 +72,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background: #999;
 
   position: relative;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .slider-second .progress-second {
@@ -99,9 +99,11 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 5px;
   position: absolute;
 }
+
 .range-input {
   position: relative;
 }
+
 .range-input input {
   position: absolute;
   top: -5px;
